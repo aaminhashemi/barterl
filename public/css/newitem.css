@@ -1,0 +1,102 @@
+img {
+    position: absolute;
+    left: 0px;
+    top:0px;
+    z-index: -1;
+    opacity: 1;
+    width: 100%;
+    height: auto;
+  
+  
+   }
+   .card{
+       box-shadow: 0 1px 6px 0 rgb(0 0 0 / 10%);
+       border-radius: .3125rem;
+       padding: 1rem;
+       background: #fff;
+   }
+   select, option {
+    text-align:right;   
+}
+.form-select{
+    cursor: pointer;
+}
+.form-select.placeholder{
+    color: #6f7479;
+}
+.item-form.clearfix {
+    width: fit-content;
+    /* display: inline-block; */
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-right: 50px; */
+    margin-top: 5px;
+    /* height: 50px; */
+    position: relative;
+    font-size: small;
+    display: flex;
+   
+}
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 0.5rem;
+    direction: rtl;
+}
+.col-md-12.toto {
+    padding-bottom: 32px;
+}
+
+.section {
+    zoom: 1;
+    background-color: transparent;
+    display: block;
+    position: relative;
+    clear: both;
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: right;
+    padding-left: calc(50% - 490px + 0px);
+    padding-right: calc(50% - 490px + 0px);
+}
+
+/* Headline  */
+.ui[class*="center aligned"].container {
+    text-align: center;
+}
+.ui.fluid.container {
+    width: 100%;
+}
+
+.ui.container {
+    display: block;
+    max-width: 100%!important;
+}
+.pad50 {
+    padding: 25px 0;
+}
+/* ------------------------------------------------------ */
+.custom-file-label::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    display: block;
+    height: calc(1.6em + 0.75rem);
+    padding: 0.375rem 0.75rem;
+    line-height: 1.6;
+    color: #ffffff;
+    content: "Browse";
+    background-color: #00bcef;
+    border-left: inherit;
+    border-radius: 0 0.25rem 0.25rem 0;
+}
+
+
+.shadow-sm1 {
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 13%) !important;
+}

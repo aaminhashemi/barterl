@@ -1,0 +1,36 @@
+.row {
+    justify-content: center;
+}
+.card-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #eff6fb;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.accordion{
+    width: 64%;
+
+}
+.svgpv {
+    overflow: hidden;
+    vertical-align: middle;
+    float: left;
+}
+a {
+    color: #3490dc;
+    text-decoration: none !important;
+    background-color: transparent;
+}
+.text-center {
+    text-align: right!important;
+}
+/* Headline */
+.ui[class*="center aligned"].container {
+    text-align: right;
+    border-bottom: solid 1px #e0e3ec;
+    margin-bottom: 20px;
+}
+.pad50 {
+    padding: 50px 0;
+    padding-bottom: 0px;
+}

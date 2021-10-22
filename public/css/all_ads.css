@@ -1,0 +1,153 @@
+
+
+/*search box css start here*/
+.search-sec{
+    padding: 2rem;
+}
+.search-slt{
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+.wrn-btn{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+button, input {
+    overflow: visible;
+    text-align: right;
+}
+form{
+    direction: rtl;
+}
+
+
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: center;
+}
+
+.cards-list {
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: .3125rem;
+    box-shadow: 0 1px 6px 0 rgb(0 0 0 / 10%);
+}
+
+    .card .card_image {
+        width: inherit;
+        height: inherit;
+        border-radius: 40px;
+    }
+
+        .card .card_image img {
+            width: inherit;
+            height: inherit;
+            border-radius: 2px;
+            object-fit: cover;
+        }
+
+        .card .card_title {
+            text-align: center;
+            border-radius: 0px 0px 2px 2px;
+            font-family: tahoma;
+            font-size: 22px;
+            margin-top: -40px;
+            height: 40px;
+            background-color: rgb(0 0 0 / 8%);
+            /* margin-bottom: 0px; */
+        }
+
+    .card:hover {
+        transform: scale(0.9, 0.9);
+    }
+
+.title-white {
+    color: white;
+}
+
+.title-black {
+    color: black;
+}
+
+@media all and (max-width: 500px) {
+    .card-list {
+        /* On small screens, we are no longer using row direction but column */
+        flex-direction: column;
+    }
+}
+button.btn.wrn-btn.btn-search {
+    background-color:   #00bcef!important;
+    color: white;
+    border-color: #00bcef!important;
+
+}
+
+/* Headline */
+.ui[class*="center aligned"].container {
+    text-align: right;
+    border-bottom: solid 1px #e0e3ec;
+    margin-bottom: 20px;
+}
+.pad50 {
+    padding: 50px 0;
+    padding-bottom: 0px;
+}
+.color-headline{
+    color: #f2711c;
+}
+
+.nav-text{
+    border-radius: .3125rem;
+    box-shadow: 0 1px 6px 0 rgb(0 0 0 / 10%);
+}
+#breadcrumbs ul li {
+    display: inline-block;
+}
+#breadcrumbs ul {
+    list-style: none;
+    font-size: .75rem;
+    color: #999;
+}
+.color-headline{
+    color: #f2711c;
+}
+/* search bar */
+.svg-search1 {
+    overflow: hidden;
+    vertical-align: middle;
+    margin-right: 60px;
+}
+
+.svg-search2{
+    overflow: hidden;
+    vertical-align: middle;
+    margin-right: 40px;
+}

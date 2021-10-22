@@ -1,0 +1,54 @@
+.row {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 51px;
+    margin-left: 51px;
+}
+.card-header1 {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #eff6fb;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    width: 437px;
+    border-radius: 0.25rem;
+}
+.accordion{
+    width: 70%;
+
+}
+.svgpv {
+    overflow: hidden;
+    vertical-align: middle;
+    float: left;
+}
+a {
+    color: #3490dc;
+    text-decoration: none !important;
+    background-color: transparent;
+}
+.card1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    /* border: 1px solid rgba(0, 0, 0, 0.125); */
+    border-radius: 0.25rem;
+    direction: rtl;
+}
+.text-center {
+    text-align: right!important;
+}
+/* Headline */
+.ui[class*="center aligned"].container {
+    text-align: right;
+    border-bottom: solid 1px #e0e3ec;
+    margin-bottom: 20px;
+}
+.pad50 {
+    padding: 50px 0;
+    padding-bottom: 0px;
+}
