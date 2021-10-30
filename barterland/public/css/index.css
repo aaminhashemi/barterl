@@ -1,0 +1,167 @@
+
+
+.section {
+    zoom: 1;
+    background-color: transparent;
+    display: block;
+    position: relative;
+    clear: both;
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: right;
+    padding-left: calc(50% - 490px + 0px);
+    padding-right: calc(50% - 490px + 0px);
+}
+
+/*search box css start here*/
+.search-sec{
+    padding: 2rem;
+}
+.search-slt{
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+.wrn-btn{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: center;
+}
+button, input {
+    overflow: visible;
+    text-align: right;
+}
+form{
+    direction: rtl;
+}
+<!-- -->
+
+.cards-list {
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: .3125rem;
+    box-shadow: 0 1px 6px 0 rgb(0 0 0 / 10%);
+}
+.card-pv {
+    width: 250px;
+    height: 315px;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: .3125rem;
+    box-shadow: 0 1px 6px 0 rgb(0 0 0 / 10%);
+}
+
+    .card .card_image {
+        width: inherit;
+        height: inherit;
+        border-radius: 40px;
+    }
+
+        .card .card_image img {
+            width: inherit;
+            height: inherit;
+            border-radius: 2px;
+            object-fit: cover;
+        }
+
+        .card .card_title {
+            text-align: center;
+            border-radius: 0px 0px 2px 2px;
+            font-family: "IranianSansRegular";
+            font-size: 18px;
+            margin-top: -40px;
+            height: 40px;
+            background-color: rgb(0 0 0 / 8%);
+            /* margin-bottom: 0px; */
+        }
+
+    .card:hover {
+        transform: scale(0.9, 0.9);
+    }
+
+.title-white {
+    color: white;
+}
+
+.title-black {
+    color: black;
+}
+
+@media all and (max-width: 500px) {
+    .card-list {
+        /* On small screens, we are no longer using row direction but column */
+        flex-direction: column;
+    }
+}
+.ui.big.image, .ui.big.images .image, .ui.big.images img, .ui.big.images svg {
+    width: 400px;
+    height: auto;
+    font-size: 1.30769231rem;
+}
+button.btn.wrn-btn.btn-search {
+    background-color:   #00bcef!important;
+    color: white;
+    border-color: #00bcef!important;
+
+}
+
+/* search bar */
+.svg-search1 {
+    overflow: hidden;
+    vertical-align: middle;
+    margin-right: 60px;
+}
+
+.svg-search2{
+    overflow: hidden;
+    vertical-align: middle;
+    margin-right: 40px;
+}
+
+.card-pv {
+    width: 250px;
+    height: 315px;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: .3125rem;
+    box-shadow: 0 1px 6px 0 rgb(0 0 0 / 10%);
+}
+.card-pv:hover {
+    transform: scale(0.9, 0.9);
+}

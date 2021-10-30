@@ -1,0 +1,19 @@
+.nav-text{
+    border-radius: .3125rem;
+    box-shadow: 0 1px 6px 0 rgb(0 0 0 / 10%);
+}
+#breadcrumbs ul li {
+    display: inline-block;
+}
+#breadcrumbs ul {
+    list-style: none;
+    font-size: .75rem;
+    color: #999;
+}
+.color-headline{
+    color: #f2711c;
+}
+
+
+
+

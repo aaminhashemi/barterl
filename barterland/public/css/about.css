@@ -1,0 +1,91 @@
+  
+.at-item {
+  color: #1bb9b7;
+  animation-name: focus-in-contract;
+  animation-duration: 1.5s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  margin-right: 333px;
+}
+@keyframes focus-in-contract {
+  0%{
+    letter-spacing: 1em;
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100%{
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+.about-us__description-text {
+  width: 100%;
+  padding: 50px;
+  text-align: justify;
+  font-size: 1.25em;
+  text-align: right;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #eff6fb;
+  height: 261px;
+  border-bottom: solid 1px #e0e3ec;
+}
+.about-us__description-img {
+    width: 30%;
+    max-width: 300px;
+    padding: 20px;
+    margin-top: -102px !important;
+    /* margin-top: -140px; */
+}
+img {
+    border-style: none;
+}
+.sect {
+  background-color: #eff6fb;
+  padding-right: calc(56% - 490px + 0px);
+  padding-left: calc(56% - 490px + 0px);
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+
+}
+
+.padd-top{
+    padding-top: 7rem !important;
+}
+
+/* Headline */
+#header {
+text-align: center;
+border-bottom: solid 1px #e0e3ec;
+width:100%;
+}
+.pad50 {
+padding: 50px 0;
+padding-bottom: 0px;
+}
+
+/* Headline2 */
+#header2 {
+text-align: center;
+width:100%;
+}
+
+/* team */
+.member {
+padding: 2.7em;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.row {
+display: -ms-flexbox;
+display: flex;
+margin-right: -15px;
+margin-left: -15px;
+justify-content: center;
+width: 100%;
+}
