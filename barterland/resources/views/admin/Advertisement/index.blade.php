@@ -30,7 +30,7 @@
                             <td><a href="">{{$ad->cat}}</a></td>
                             <td><a href="">{{$ad->uni}}</a></td>
                             <td>
-                                <a href="{{route('adv_delete',$ad->id)}}" class="item-delete mlg-15" title="حذف"></a>
+                                <a href="#" onclick=deleteItem(event,"{{route('adv_delete',$ad->id)}}",'tr') class="item-delete mlg-15" title="حذف"></a>
                                 <a href="{{route('adv_show',$ad->id)}}" class="item-eye " title="مشاهده"></a>
                             </td>
                         </tr>
@@ -39,7 +39,9 @@
                 </table>
             </div>
         </div>
+
         @include('admin.Advertisement.search')
     </div>
+
 </div>
 @stop

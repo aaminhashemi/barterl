@@ -103,7 +103,7 @@ Route::get('/rules', function () {
     Route::post('/admins/category/save',[AdminCategoryController::class,'save'])->name('category_create');
 
     Route::get('/admins/ads',[AdminAdvertisementController::class,'index'])->name('advertisements');
-    Route::get('/admins/ads/{itemDetail}/delete',[AdminAdvertisementController::class,'delete'])->name('adv_delete');
+    Route::delete('/admins/ads/{itemDetail}/delete',[AdminAdvertisementController::class,'delete'])->name('adv_delete');
     Route::get('/admins/ads/{itemDetail}/show',[AdminAdvertisementController::class,'show'])->name('adv_show');
     Route::post('/admins/ads/search',[AdminAdvertisementController::class,'search'])->name('adv_search');
 

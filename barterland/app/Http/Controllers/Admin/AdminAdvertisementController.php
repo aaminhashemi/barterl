@@ -28,12 +28,17 @@ class AdminAdvertisementController extends Controller
 
     public function delete(ItemDetail $itemDetail)
     {
-        $type=$this->checkAdmin();
+        /*$type=$this->checkAdmin();
         if($type!='admin'){
             return redirect(route('dashboard'));
-        }
+        }*/
         $itemDetail->delete();
-        return back();
+
+        return response()->json([
+            'title'=>'موفقیت آمیز',
+            'message'=>'عملیات با موفقیت انجام شد',
+            'icon'=>'success',
+        ]);
     }
 
     public function search(Request $request)

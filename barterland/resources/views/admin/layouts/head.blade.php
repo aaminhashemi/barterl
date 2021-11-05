@@ -7,4 +7,6 @@
     <link rel="stylesheet" href="/admin/css/responsive_768.css" media="(max-width:768px)">
     <link rel="stylesheet" href="/admin/css/font.css">
     <link type="text/css" href="/admin/css/persian-datepicker.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/admin/css/jquery.toast.min.css" />
+    <link rel="stylesheet" href="/admin/css/sweetalert2.min.css" />
 </head>
